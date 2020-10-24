@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--meta description should contain keywords, be unqiue to each page and 130-160 characters-->
+    <meta name="description"
+        content="Jeremy Morrison's website design and development portfolio. This page contains various submission froms created with HTML, CSS and JavaScript.">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Title should be unqiue to each page, contain keywords and less than 60 characters-->
+    <title>Website Design & development |  Submission forms</title>
+    <!--This is BS4 framework linked to BS CDN - Typically I use the bs-grid.css or compile only the source code I need-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--my CSS styles - Sometimes it gets out of control so I use purgeCSS to remove unused code and make a separate file for each page to improve performance-->
+    <link href="css/forms.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <!--Animations, but I also use CSS and JS animations from scratch-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap" rel="stylesheet">
+    <!--I use the canonical link because google with its infinite cash flow still can not figure out this is not a duplicate page-->
+    <link rel="canonical" href="https://website-design-forms.html" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169295171-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169295171-1');
+    </script>
+</head>
+
+<body>
+    <!--BS4 navbar that will collapse to a hamburger menu on mobile and tablet devices - "sr-only" class is specifically for accessibility reasons (screen readers)-->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Jeremy Morrison</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-center mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link align-content-center" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="website-design-cards.html">Cards</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="website-design-forms.html">Forms</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="website-design-price-tables.html">Price Tables</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="website-design-features.html">Features</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="website-design-blocks.html">Design blocks</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="h1-pad">
+                    <h1>Website Forms</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#4b0082" fill-opacity="1"
+            d="M0,320L10.4,277.3C20.9,235,42,149,63,106.7C83.5,64,104,64,125,58.7C146.1,53,167,43,188,37.3C208.7,32,230,32,250,37.3C271.3,43,292,53,313,64C333.9,75,355,85,376,74.7C396.5,64,417,32,438,58.7C459.1,85,480,171,501,186.7C521.7,203,543,149,563,128C584.3,107,605,117,626,128C647,139,668,149,689,154.7C709.6,160,730,160,751,144C772.2,128,793,96,814,96C834.8,96,856,128,877,154.7C897.4,181,918,203,939,208C960,213,981,203,1002,208C1022.6,213,1043,235,1064,240C1085.2,245,1106,235,1127,208C1147.8,181,1169,139,1190,128C1210.4,117,1231,139,1252,154.7C1273,171,1294,181,1315,186.7C1335.7,192,1357,192,1377,170.7C1398.3,149,1419,107,1430,85.3L1440,64L1440,0L1429.6,0C1419.1,0,1398,0,1377,0C1356.5,0,1336,0,1315,0C1293.9,0,1273,0,1252,0C1231.3,0,1210,0,1190,0C1168.7,0,1148,0,1127,0C1106.1,0,1085,0,1064,0C1043.5,0,1023,0,1002,0C980.9,0,960,0,939,0C918.3,0,897,0,877,0C855.7,0,835,0,814,0C793,0,772,0,751,0C730.4,0,710,0,689,0C667.8,0,647,0,626,0C605.2,0,584,0,563,0C542.6,0,522,0,501,0C480,0,459,0,438,0C417.4,0,397,0,376,0C354.8,0,334,0,313,0C292.2,0,271,0,250,0C229.6,0,209,0,188,0C167,0,146,0,125,0C104.3,0,83,0,63,0C41.7,0,21,0,10,0L0,0Z">
+        </path>
+    </svg>
+    <main>
+        <section id="form" class="container">
+            <form name="snowMenu" id="regForm" class="radio-style" action="send_mail2.php" method="post">
+                <div class="col-md-12">
+                    <div class="tab">
+                        <h4>How many cars fit in your driveway?</h4>
+                        <p>If you're not sure, just select the one you feel is closest. We'll check it out after
+                            submission. Clearing of one walkway is included in the price</p>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input type="radio" id="twocars" name="driveway" value="170.00" />
+                                <label for="twocars">1-2 Cars<br /><small>Includes walkway</small></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="threecars" name="driveway" value="200.00" />
+                                <label for="threecars">3-4 Cars<br /><small>Includes walkway</small></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="fivecars" name="driveway" value="230.00" />
+                                <label for="fivecars">5-6 Cars<br /><small>Includes walkway</small></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="col-12">
+                            <h4>Select a walkway.</h4>
+                            <p>One walkway is included in the price. Includes walkway, stairs and landing area (front
+                                patio).</p>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input type="radio" id="front" name="walkway" value="0.00" />
+                                <label for="front">Front door</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="side" name="walkway" value="0.00" />
+                                <label for="side">Side door</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="nowalkway" name="walkway" value="0.00">
+                                <label for="nowalkway">None</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="col-12">
+                            <h4>Do you want to add an optional walkway?</h4>
+                            <p>There is an addtional fee for a second walkway.</p>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input type="radio" id="fronttwo" name="walkwaytwo" value="50.00">
+                                <label for="fronttwo">Front door</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="sidetwo" name="walkwaytwo" value="60.00">
+                                <label for="sidetwo">Side door</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="nowalkwaytwo" name="walkwaytwo" value="0.00">
+                                <label for="nowalkwaytwo">None</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="col-12">
+                            <h4>Do you want the city sidewalk shovelled?</h4>
+                            <p>Does the sidewalk run parallel to the front of your lot or is it a corner lot sidewalk?</p>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input type="radio" id="fsidewalk" name="sidewalk" value="50.00">
+                                <label for="fsidewalk">Front</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="csidewalk" name="sidewalk" value="80.00">
+                                <label for="csidewalk">Corner</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="nosidewalk" name="sidewalk" value="0.00">
+                                <label for="nosidewalk">None</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="col-12">
+                            <h4>Do you want to add salt service?</h4>
+                            <p>We deliver 20kg bags of salt to your property throughout the season and spread it after we
+                                clear snow. You may also use it as you deem necessary. We deliver 3 bags at a time and
+                                payment is due upon delivery. In March we deliver 1 bag to reduce the amount of left over
+                                salt at the end of the season.</p>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input type="radio" id="rock" name="salt" value="0">
+                                <label for="rock">Rock salt <br /><small>$20/bag</small></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="ego" name="salt" value="0">
+                                <label for="ego">Ego salt <br /><small>$30/bag</small></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="radio" id="nosalt" name="salt" value="0">
+                                <label for="nosalt">None</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="col-12">
+                            <h4>Ready to sign up!</h4>
+                        </div>
+                        <div class="col-12 padding">
+                            <p>There is no commitment when you submit this form. Once we receive your
+                                submission we will verify and send you any invoice. Once payment is made we will put you on
+                                a route. If you change your mind we can cancel the invoice.</p>
+                        </div>
+                        <!--<div class="row no-gutters">
+                            <div class="col-md-6 checkout">
+                                <input type="radio" id="invoice" name="checkout" value="0">
+                                <label for="invoice">Yes, email me an invoice.</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="radio" id="records" name="checkout" value="0">
+                                <label for="records">No (submit for your records)</label>
+                            </div>
+                        </div>-->
+                        <div id="contact" class="row no-gutters">
+                            <div class="col-md-4">
+                                <input required type="text" name="fullname" id="fullname" placeholder="Full Name">
+                                <label class="hidelabel" for="fullname"></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input required type="tel" name="phone" id="phone" placeholder="Phone Number">
+                                <label class="hidelabel" for="phone"></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input required type="email" name="email" id="email" placeholder="Email Address">
+                                <label class="hidelabel" for="email"></label>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <input required type="text" name="address" id="address" placeholder="Street Address">
+                                <label class="hidelabel" for="address"></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input required type="text" name="city" id="city" placeholder="City">
+                                <label class="hidelabel" for="city"></label>
+                            </div>
+                            <div class="col-md-4">
+                                <input required type="text" name="postal" id="postal" placeholder="Postal Code">
+                                <label class="hidelabel" for="postal"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <h5>Monthly Snow Removal Price</h5>
+                            <span class="sign">$</span><input readonly size="6" id="total" type="text" value="0.00" />
+    
+                        </div>
+                        <div class="col-md-4">
+                            <div class="dots">
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Prev</button>
+                                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                <input id="submit" type="submit" value="submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+      </section>
+    </main>
+    <footer>
+        <p>&#169; All work created by Jeremy Morrison</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/da972999af.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/form-snow-removal.js"></script>
+</body>
+<script>
+    AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,265 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+
+/* table name  */
+.price-table {
+    max-width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font: 13px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/* main title  */
+.product-title-resp {
+    color:#1e78b7;
+    font-size:40px;
+    font-weight:600;
+}
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+}
+.product {
+    background-color: #1e78b7;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.product2 {
+    background-color: #1e78b7;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.product-feature {
+    background-color: #1e78b7;
+    font-size: 18px;
+    color:#fff;
+}
+.price-info-feature {
+    font-size: 36px;
+    border: 1px solid #384D62;
+    background-color: #fff;
+    color:#000;
+    text-align:center;
+}
+.price-info1 {
+    font-size: 36px;
+    color: #fff;
+    border: 1px solid #384D62;
+    background-color: none;
+    text-align:center;
+    padding: 10px 30px 30px 30px;
+}
+.price-info2 {
+    border: 1px solid #384D62;
+    background-color: #E84D00;
+    text-align: center;
+    padding: 25px 20px 20px 25px;
+}
+
+.price-info4 {
+    border: 1px solid #384D62;
+    background-color: #ff9b00;
+    text-align: center;
+    padding: 25px 20px 25px 20px;
+}
+
+.price-info5 {
+    border: 1px solid #384D62;
+    background-color: darkorange;
+    text-align: center;
+    padding: 25px 20px 25px 20px;
+}
+
+.price-now span {
+    font-size: 16px;
+    color: #fff;
+    text-align:center;
+}
+
+.font16 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.fontsize {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.comparison-table td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    empty-cells: show;
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid #c7c3c3;
+    border-bottom: 1px solid #e6e3e3;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.price-table tbody tr:nth-child(odd) {
+    display: none;
+}
+
+.compare-row {
+    background-color: #1e78b7;
+    text-align: center;
+    border: 1px solid #1e78b7;
+}
+
+.comparelinkedin {
+    background-color: #808080;
+    text-align: center;
+    border-top: 1px solid #808080;
+}
+
+.comparesocial {
+    background-color:#050404;
+    text-align: center;
+    border-top: 1px solid #ff9b00;
+}
+
+.comparefb {
+    background-color: #808080;
+    text-align: center;
+    border-top: 1px solid #808080;
+}
+
+.compare-row2 {
+    background-color: #1e78b7;
+    text-align: center;
+    font-size: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price-table tr {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.fa-check {
+    color: #E84D00;
+}
+
+.fa-times {
+    color: #000;
+    font-size: 13px;
+}
+
+.fa-long-arrow-alt-right {
+    font-size: 25px;
+    text-align: right;
+    color: #000;
+}
+
+.fa-long-arrow-alt-left {
+    font-size: 25px;
+    text-align: right;
+    color: #000;
+}
+
+.fa-minus {
+    font-size: 13px;
+    text-align: right;
+    color: #000;
+}
+.rowdec {
+  font-size: 16px;
+  color: #ee3b24;
+  font-weight: 700;
+}
+
+.rowdec3 {
+  font-size: 16px;
+  color: #ff9b00;
+  font-weight: 700;
+}
+
+.rowdec5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.rowdec4 {
+    font-size: 16px;
+    color: #ff9b00;
+    font-weight: 700;
+}
+
+.rowdec2 {
+    background-color: #E84D00;
+}
+
+.get-started-btn:hover {
+    background: #E84D00;
+}
+
+}
+
+@media screen and (min-width: 721px) and (max-width: 1000px) {
+
+.price-now span {
+     font-size: 32px;
+   }
+
+    .font16 {
+        font-size: 12px;
+    }
+
+    .price-now p {
+        display: block;
+   }
+}
+@media screen and (max-width: 728px) {
+
+    .fontsize {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .price-table {
+        max-width: 100%;
+    }
+
+    .product {
+        font-size: 12px;
+    }
+
+    .price-now span {
+        font-size: 12px;
+    }
+
+    .price-table td:first-child, .price-table th:first-child {
+        display: none;
+    }
+
+    .price-table tbody tr:nth-child(odd) {
+        display: table-row;
+        background-color: #323232;
+        font-weight: 600;
+    }
+
+    .price-table td, .price-table th {
+        border-top: none;
+        padding: 10px;
+    }
+
+    .price-info2 {
+        font-size: 12px;
+        padding: 20px 15px 20px 15px;
+    }
+
+
+}

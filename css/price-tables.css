@@ -1,0 +1,448 @@
+
+body {
+    margin: 0;
+    height: auto;
+}
+
+nav {
+    background-color: indigo;
+    box-shadow:0 6px 14px 0 rgba(0,0,0,.25),0 10px 30px 4px rgba(0,0,0,.2);
+}
+
+.dropdown-item {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-menu {
+    box-shadow:0 6px 14px 0 rgba(0,0,0,.25),0 10px 30px 4px rgba(0,0,0,.2);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(75, 0, 130, 0.2);
+
+}
+
+header {
+    background-color: indigo;
+    height: auto;
+}
+
+.h1-pad {
+    padding: 80px 0 50px 0;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin: 100px 0 100px 0;
+    transform: rotate(-20deg);
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2);
+}
+
+header p {
+    color: white;
+    padding: 50px 0 50px 0;
+    margin: 0 80px 0 0;
+    font-size: 22px;
+    
+}
+
+.container {
+    padding-bottom: 150px;
+}
+
+/*sec-1*/
+
+#sec-1 .price-table {
+    height: 780px;
+    border-color: grey;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#sec-1 .svg {
+    height: 200px;
+}
+
+#sec-1 p {
+    background-color: #08f;
+    text-align: left;
+    padding: 10px 0 0 10px;;
+    font-size: 24px;
+    color: white;
+    z-index: 100;
+    position: absolute;
+}
+
+#sec-1 span {
+    margin-top: -120px;
+    padding-left: 160px;
+    display: block;
+    font-size: 50px;
+}
+
+#sec-1 small {
+    display: block;
+    margin-top: -25px;
+    font-size: 26px;
+    text-align: right;
+    padding-right: 30px;
+    
+}
+
+#sec-1 ul {
+    list-style-type: none;
+    padding-top: 50px;
+    display: block;
+}
+
+#sec-1 li {
+    display: block;
+    padding: 5px 0 0 15px;;
+    font-size: 20px;
+}
+
+#sec-1 .fa-check {
+    color: #08f;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+#sec-1 .fa-times {
+    color: grey;
+    font-size: 14px;
+    padding-right: 14px;
+}
+
+#sec-1 .through {
+    text-decoration: line-through lightgrey;
+    color: grey;
+}
+
+#sec-1 .pro:hover {
+    transform: translate(0, -30px) scale(1.1, 1);
+}
+
+#sec-1 .button {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#sec-1 a {
+    text-decoration: none;
+    border: solid grey 2px;
+    padding: 8px 5px;
+}
+
+#sec-1 .button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* sec-2*/
+
+#sec-2 .price-table {
+    border: solid maroon 2px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    height: 450px;
+}
+
+#sec-2 .price-table:hover {
+    color: white;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+#sec-2 p {
+    font-size: 22px;
+    text-align: center;
+    margin-left: 200px;
+    display: inline;
+    padding: 5px 2px;
+    color: maroon;
+}
+
+#sec-2 span {
+    font-size: 65px;
+    margin-top: 200px;
+}
+
+#sec-2 .span {
+    padding-top: 30px;
+}
+
+#sec-2 .monthly {
+    text-decoration: underline maroon;
+    font-size: 25px;
+    display: inline;
+    text-align: left;
+    position: absolute;
+    padding: 25px 0 0 0;
+    transform: rotate(-30deg);
+}
+
+#sec-2 ul {
+    text-align: center;
+    padding-left: 20%;
+    list-style-type: none;
+    padding-right: 15%;
+}
+
+#sec-2 li {
+    border: solid 1px maroon;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3px 0;
+}
+
+#sec-2 .through {
+    text-decoration: line-through;
+    color: grey;
+
+}
+
+#sec-2 .top {
+    border-top: 1px solid maroon;
+}
+
+#sec-2 .fas {
+    display: none;
+}
+
+#sec-2 .scroll {
+    height: 200px;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+#sec-2 .button {
+    text-align: center;
+    font-size: 22px;
+    padding: 30px 0 30px 0;
+    
+}
+
+#sec-2 a {
+    text-decoration: none;
+    border: solid maroon 2px;
+    border-radius: 10px;
+    padding: 8px 5px;
+    color: black;
+}
+
+#sec-2 a:hover {
+    color: white;
+    background-color: maroon;
+}
+
+/* sec-3*/
+
+#sec-3 .left {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 60px;
+    text-decoration: underline indigo;
+}
+
+#sec-3 .price-table {
+    border: solid indigo 2px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    height: 750px;
+}
+
+#sec-3 .price-table:hover {
+    color: white;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+#sec-3 p {
+    font-size: 22px;
+    text-align: center;
+    margin-left: 200px;
+    display: inline;
+    padding: 5px 2px;
+    color: indigo;
+}
+
+#sec-3 span {
+    font-size: 65px;
+    margin-top: 200px;
+}
+
+#sec-3 .span {
+    padding-top: 30px;
+}
+
+#sec-3 .monthly {
+    text-decoration: underline indigo;
+    font-size: 25px;
+    display: inline;
+    text-align: left;
+    position: absolute;
+    padding: 25px 0 0 0;
+    transform: rotate(-30deg);
+}
+
+#sec-3 ul {
+    text-align: center;
+    padding-left: 20%;
+    list-style-type: none;
+    padding-right: 15%;
+}
+
+#sec-3 li {
+    border: solid 1px indigo;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3px 0;
+}
+
+#sec-3 .through {
+    text-decoration: line-through;
+    color: grey;
+
+}
+
+#sec-3 .top {
+    border-top: 1px solid indigo;
+}
+
+#sec-3 .fas {
+    display: none;
+}
+
+#sec-3 .scroll {
+    padding-top: 20px;
+}
+
+#sec-3 .button {
+    text-align: center;
+    font-size: 22px;
+    padding: 30px 0 30px 0;
+    
+}
+
+#sec-3 a {
+    text-decoration: none;
+    border: solid indigo 2px;
+    border-radius: 10px;
+    padding: 8px 5px;
+    color: black;
+}
+
+#sec-3 a:hover {
+    color: white;
+    background-color: indigo;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 10px 0;
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+@media (max-width: 576px) {  
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .h1-pad {
+        padding: 10px 0 50px 0;
+    }
+
+    header p {
+        margin: 0 15px 10px 30px;
+        font-size: 18px;
+    }
+
+    #sec-3 .price-table {
+        height: 450px;
+    }
+
+    #sec-3 .scroll {
+        height: 200px;
+        overflow: auto;
+        padding-top: 20px;
+    }
+}
+ 
+@media (max-width: 768px) {  
+    h1 {
+        font-size: 40px;
+    }
+
+    .h1-pad {
+        padding: 10px 0 50px 0;
+    }
+
+    header p {
+        margin: 0 15px 10px 30px;
+        font-size: 18px;
+    }
+
+    #sec-3 .price-table {
+        border: solid maroon 2px;
+        border-radius: 15px;
+        text-align: center;
+        padding-top: 5px;
+        margin-bottom: 50px;
+        height: 450px;
+    }
+
+    #sec-3 .scroll {
+        height: 200px;
+        overflow: auto;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 992px) { 
+    header p {
+        padding: 50px 50px 50px 50px;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+ 
+}
+
+@media (min-width: 1400px) {  
+    header p {
+        padding: 50px 50px 50px 50px;
+        margin: 50px 200px 0 0;
+        font-size: 24px;
+    }
+
+    h1 {
+        padding-top: 0;
+        font-size: 80px;
+    }
+
+}
